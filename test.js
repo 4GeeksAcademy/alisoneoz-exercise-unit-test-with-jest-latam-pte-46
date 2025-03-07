@@ -30,7 +30,7 @@ test("One dollar should be 145,54 yen", ()=>{
 
     const expected = (1 / 1.07 ) * 156.5;
 
-    expect(fromDollarToYen(1)).toBe(expected)
+    expect(yen).toBe(expected)
 
 })
 
